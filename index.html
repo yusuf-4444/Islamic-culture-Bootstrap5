@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Islamic Culture |</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section-1">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"
+            ><img
+              src="https://img.freepik.com/premium-vector/islamic-mosque-logo-vector-tempalate_487414-3399.jpg?w=50"
+              alt=""
+          /></a>
+          <span class="navbar-text border-end pe-2">Islamic culture</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-dark dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Trips
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">عمرة</a></li>
+                <li><a class="dropdown-item" href="#">حج</a></li>
+                <li><a class="dropdown-item" href="#">رحلات دينية</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">More...</a></li>
+              </ul>
+            </div>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="javascript:void(0)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="javascript:void(0)"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="javascript:void(0)"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="text"
+                placeholder="Search"
+              />
+              <button class="btn btn-dark" type="button">Search</button>
+            </form>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content p-4">
+            <form action="/action_page.php">
+              <div class="mb-3 mt-3">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pwd">Password:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pwd"
+                  placeholder="Enter password"
+                  name="pswd"
+                />
+              </div>
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="remember"
+                  />
+                  Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <aside class="container-fluid position-relative">
+        <div
+          class="aside d-flex flex-column justify-content-between position-fixed z-3"
+        >
+          <div class="aside-icon">
+            <a href="#"><i class="fab fa-facebook-square text-black"></i></a>
+          </div>
+          <div class="aside-icon">
+            <a href="#"><i class="fab fa-whatsapp-square text-black"></i></a>
+          </div>
+          <div class="aside-icon">
+            <a href="#"><i class="fab fa-linkedin text-black"></i></a>
+          </div>
+          <div class="aside-icon">
+            <a href="#"><i class="fab fa-github-square text-black"></i></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide mt-4" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/makkah.jpg"
+              alt="Makkah"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption bg-black bg-opacity-75">
+              <h3>Makkah</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/qods.jpg"
+              alt="Masjid Al-Aqsa"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption bg-black bg-opacity-75">
+              <h3>Masjid Al-Aqsa</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/مسجد قباء.jpg"
+              alt="The Quba Mosque"
+              class="d-block"
+              style="width: 100%"
+            />
+            <div class="carousel-caption bg-black bg-opacity-75">
+              <h3>The Quba Mosque</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev fs-6"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next fs-6"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="container-fluid bg-light p-3 mb-2">
+        <h3 class="text-dark text-center">Welcome</h3>
+        <p class="container-fluid text-center">
+          Traveling is not just a physical journey; it is also a spiritual one,
+          especially for Muslim travelers seeking destinations that offer a
+          unique blend of cultural richness, historical significance, and
+          religious importance. As a Muslim traveler, choosing destinations that
+          cater to your religious and cultural preferences can enhance your
+          travel experience.
+        </p>
+        <div class="button text-center">
+          <a href="#" class="btn btn-light text-info btn-lg m">Learn more</a>
+        </div>
+      </div>
+      <hr />
+      <div class="popular-destinations">
+        <div class="container-fluid text-center text-white pt-5 pb-5 bg-dark">
+          <h2>Popular destinations</h2>
+        </div>
+        <div
+          class="accordion accordion-flush text-center"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Makkah
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Mecca, in a desert valley in western Saudi Arabia, is Islam’s
+                holiest city, as it’s the birthplace of the Prophet Muhammad and
+                the faith itself. Only Muslims are allowed in the city, with
+                millions arriving for the annual Hajj (pilgrimage).
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Masjid Al-Aqsa
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Masjid Al-Aqsa stands not just as a physical structure but as a
+                symbol of unity, faith, and divine connection for Muslims. Its
+                historical legacy, association with the Prophet's Night Journey
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                The Quba Mosque
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                the first mosque built by Prophet Muhammad (PBUH) after his
+                migration from Makkah
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="information">
+        <div class="container-fluid text-center text-white pt-5 pb-5 bg-dark">
+          <h2>What Do You Know About Islamic Culture?</h2>
+        </div>
+      </div>
+      <div class="container-fluid mt-4">
+        <p class="fs-5 fw-bold">Write Your Knowledge About Islamic Culture</p>
+      </div>
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary ms-2 mb-3"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Submit
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Submit</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">Do You Want to Submit This answer?</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3 container-fluid">
+        <textarea
+          class="form-control"
+          placeholder="Write Here"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <hr />
+      <div>
+        <div class="container-fluid scroll-img"></div>
+      </div>
+    </section>
+    <section class="section-3">
+      <div class="information">
+        <div class="container-fluid text-center text-white pt-5 pb-5 bg-dark">
+          <h2>Dicover The Most Popular Places</h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="text-center">
+          <div class="row justify-content-evenly">
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card1.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">
+                  Sheikh Zayed Mosque, United Arab Emirates
+                </h5>
+                <p class="card-text">
+                  The largest mosque in the UAE. It is also considered as the
+                  main place of worship in Abu Dhabi.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card2.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">Malacca Straits Mosque, Malaysia</h5>
+                <p class="card-text">
+                  The Malacca Straits Mosque hosted its opening ceremony in 2006
+                  and, since then, has been a major tourist attraction not just
+                  in Malacca but throughout the whole of Malaysia as well.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card3.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">
+                  Sultan Ahmed Mosque, Istanbul, Turkey
+                </h5>
+                <p class="card-text">
+                  the Sultan Ahmed Mosque (completed in 1616, also known as the
+                  Blue Mosque) is generally reckoned the crowning example of
+                  Ottoman architecture.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card4.png"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">
+                  The Islamic Cultural Center (MISR MOSQUE) | GRC
+                </h5>
+                <p class="card-text">
+                  The Islamic Cultural Center Egypt in the New Administrative
+                  Capital is located at the heart of the Governmental District,
+                  composing of Misr Mosque ( one of the World's largest Mosques)
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card5.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">
+                  Sultan Salahuddin Abdul Aziz Mosque, Malaysia
+                </h5>
+                <p class="card-text">
+                  Sultan Salahuddin Abdul Aziz Mosque is the largest mosque in
+                  Malaysia and it is located in Shah Alam, Selangor.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card6.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">Taj-ul-Mosque, India</h5>
+                <p class="card-text">
+                  The Taj-ul-Masajid translates to Crown Among Mosques and it is
+                  one of the largest mosques in India. It can be found in the
+                  city of Bhopal.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card7.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">Crystal Mosque, Malaysia</h5>
+                <p class="card-text">
+                  Yet another gorgeous mosque in Malaysia, this time in
+                  Terengganu. The Crystal Mosque, or Masjid Kristal, is located
+                  on the island of Wan Man’s Islamic Heritage Park and is one of
+                  the most popular tourist attractions in the whole of Malaysia.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div
+              class="card mosque position-relative my-4"
+              style="width: 25rem"
+            >
+              <img
+                src="images/card8.jpg"
+                class="card-img-top"
+                alt="..."
+                height="250"
+              />
+              <div class="card-body z-3">
+                <h5 class="card-title">
+                  Sultan Omar Ali Saifuddin Mosque, Brunei Darussalam
+                </h5>
+                <p class="card-text">
+                  Named as a major historic site and tourist attraction in
+                  Brunei, this beautiful architectural masterpiece is located in
+                  Bandar Seri Begawan, the capital of Brunei.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container-fluid scroll-img qods"></div>
+      </div>
+    </section>
+
+    <section class="section-4">
+      <div class="information">
+        <div class="container-fluid text-center text-white pt-5 pb-5 bg-dark">
+          <h2>Book Your Ticket</h2>
+        </div>
+      </div>
+      <div class="container-fluid my-4">
+        <div class="row">
+          <div class="col-xl-4 col-12 col-lg-6 mb-3">
+            <div class="card text-bg-dark text-center">
+              <img src="images/card1.jpg" class="card-img" alt="..." />
+              <div
+                class="card-img-overlay"
+                style="background-color: rgba(0, 0, 0, 50%); padding: 50px 0"
+              >
+                <h5 class="card-title">
+                  Sheikh Zayed Mosque, United Arab Emirates
+                </h5>
+                <p class="card-text">
+                  The largest mosque in the UAE. It is also considered as the
+                  main place of worship in Abu Dhabi.
+                </p>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-12 mb-3">
+            <div class="card text-bg-dark text-center">
+              <img src="images/card6.jpg" class="card-img" alt="..." />
+              <div
+                class="card-img-overlay"
+                style="background-color: rgba(0, 0, 0, 50%); padding: 50px 0"
+              >
+                <h5 class="card-title">Taj-ul-Mosque, India</h5>
+                <p class="card-text">
+                  The Taj-ul-Masajid translates to Crown Among Mosques and it is
+                  one of the largest mosques in India.
+                </p>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="book col-xl-4 col-lg-6 col-12 mb-3">
+            <div class="card text-bg-dark text-center">
+              <img src="images/card4.png" class="card-img" alt="..." />
+              <div
+                class="card-img-overlay"
+                style="background-color: rgba(0, 0, 0, 50%); padding: 50px 0"
+              >
+                <h5 class="card-title">The Islamic Cultural Center</h5>
+                <p class="card-text">
+                  The Islamic Cultural Center Egypt in the New Administrative
+                  Capital is located at the heart of the Governmental District.
+                </p>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section5">
+      <div class="information mb-5">
+        <div class="container-fluid text-center text-white pt-5 pb-5 bg-dark">
+          <h2>Most Stunning Mosques in the World</h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card stunning m-auto mb-3" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="images/stunning1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">The Blue Mosque, Istanbul</h5>
+                  <p class="card-text">
+                    Constructed between 1609 and 1616 like a series domes and
+                    half domes, Blue Mosque, is one of the beautiful mosque in
+                    the world.
+                  </p>
+
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card stunning m-auto mb-3" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">The Great Mosque of Cordoba, Spain</h5>
+                  <p class="card-text">
+                    Sited in Spain, The Great Mosque of Cordoba is one of the
+                    most beautiful mosques. standing from the late 8th century.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="images/stunning2.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card stunning m-auto mb-3" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="images/stunning3.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Bursa Grand Mosque, Turkey</h5>
+                  <p class="card-text">
+                    Built by Ali Neccar in 1396-1399, Ulu Cami is the largest
+                    mosque in Bursa and one of the masterpieces of early Ottoman
+                    architecture.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card stunning m-auto mb-3" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Puchong Perdana Mosque, Malaysia</h5>
+                  <p class="card-text">
+                    Treat your eyes with nothing but a fascinating structure
+                    floating on water. Constructed in the year 1997.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="images/stunning4.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section6 my-5">
+      <h2 class="text-dark text-center my-4 container-fluid">
+        Join Our Communinty
+      </h2>
+      <div class="container-fluid row justify-content-evenly">
+        <div class="card border-primary mb-3" style="max-width: 18rem">
+          <div class="card-header text-center fw-bold">Share Your Ideas</div>
+          <div class="card-body text-primary">
+            <h5 class="card-title text-center" style="font-size: 60px">
+              <i class="fab fa-facebook social"></i>
+            </h5>
+            <p class="card-text text-center">
+              If you would like to keep up on the latest updates and news, come
+              by and connect with us on social media
+            </p>
+          </div>
+        </div>
+        <div class="card border-danger mb-3" style="max-width: 18rem">
+          <div class="card-header text-center fw-bold">Share Your Ideas</div>
+          <div class="card-body text-danger">
+            <h5 class="card-title text-center" style="font-size: 60px">
+              <i class="fab fa-instagram-square social"></i>
+            </h5>
+            <p class="card-text text-center">
+              If you would like to keep up on the latest updates and news, come
+              by and connect with us on social media
+            </p>
+          </div>
+        </div>
+        <div class="card border-dark mb-3" style="max-width: 18rem">
+          <div class="card-header text-center fw-bold">Share Your Ideas</div>
+          <div class="card-body">
+            <h5 class="card-title text-center" style="font-size: 60px">
+              <i class="fab fa-twitter-square social"></i>
+            </h5>
+            <p class="card-text text-center">
+              If you would like to keep up on the latest updates and news, come
+              by and connect with us on social media
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid text-center text-white pt-3 pb-3 bg-dark">
+      <div class="border-top border-bottom mt-3">
+        <img
+          class="my-4"
+          src="https://img.freepik.com/premium-vector/islamic-mosque-logo-vector-tempalate_487414-3399.jpg?w=50"
+          alt=""
+          height="60"
+        />
+        <h2 class="fw-bold">Islamic culture</h2>
+      </div>
+      <div class="pt-3">
+        <h5><i class="fas fa-phone-alt"></i> Contact Us</h5>
+        <p>Opening Hours: 10 AM - 10 PM</p>
+        <p><i class="fas fa-phone"></i> +444 444 444</p>
+        <p><i class="fas fa-envelope"></i> contact@IslamiCulture.com</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

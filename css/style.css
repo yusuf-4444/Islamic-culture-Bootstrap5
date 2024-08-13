@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-item img {
+  max-height: 100vh;
+}
+.aside {
+  top: 43%;
+  right: 4%;
+}
+.aside-icon i {
+  font-size: 30px;
+  color: blue;
+}
+.accordion-button:focus {
+  z-index: 0 !important;
+}
+.scroll-img {
+  background-image: url(../images/1200px-The_Blue_Mosque_at_sunset.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.mosque::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.234);
+  transition: 0.5s;
+}
+.mosque:hover::after {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.mosque::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.234);
+  transition: 0.5s;
+}
+.mosque:hover::before {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.qods {
+  background-image: url(../images/qods.jpg);
+}
+.stunning {
+  overflow: hidden;
+}
+.stunning img {
+  transition: 0.3s;
+}
+.stunning:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.social:hover {
+  color: #26b8bd;
+  opacity: 0.9;
+  transition: 0.3s;
+}
